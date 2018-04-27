@@ -4,6 +4,7 @@ G28 X Y Z
 
 G21 ;metric values
 G90 X Y Z E;absolute positioning
+M82;Absolute extruder
 G92 E0 ;zero the extruded length
 
 M107 ;start with the fan off
